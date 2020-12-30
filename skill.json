@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Small game for checking knowledege about indian state and capital",
+          "examplePhrases": [
+            "Alexa, open indian states capital",
+            "Alexa, start indian states capital"
+          ],
+          "keywords": [],
+          "name": "State-Capital",
+          "description": "Skill developed for kid\u0027s for dveloping there knowledge about indian state and capital.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "EDUCATIONAL_GAMES",
+      "distributionCountries": [
+        "IN"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:670622854413:function:63298623-68bb-4ed3-a49e-8719dab983cd:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}

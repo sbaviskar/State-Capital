@@ -1,0 +1,365 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "indian states capital",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "StateName",
+              "type": "Indian_State"
+            },
+            {
+              "name": "Capital",
+              "type": "Indian_Capital"
+            }
+          ],
+          "samples": [
+            "{Capital}",
+            "{StateName}"
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [],
+          "samples": [
+            "start a quiz",
+            "start a quiz game",
+            "and start a quiz",
+            "and quiz me",
+            "for a quiz",
+            "a quiz"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Jammu and Kashmir"
+              }
+            },
+            {
+              "name": {
+                "value": "\tWest Bengal"
+              }
+            },
+            {
+              "name": {
+                "value": "\tUttarakhand"
+              }
+            },
+            {
+              "name": {
+                "value": "\tUttar Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "\tTripura"
+              }
+            },
+            {
+              "name": {
+                "value": "\tTelangana"
+              }
+            },
+            {
+              "name": {
+                "value": "\tTamil Nadu"
+              }
+            },
+            {
+              "name": {
+                "value": "\tSikkim"
+              }
+            },
+            {
+              "name": {
+                "value": "\tRajasthan"
+              }
+            },
+            {
+              "name": {
+                "value": "\tPunjab"
+              }
+            },
+            {
+              "name": {
+                "value": "\tOdisha"
+              }
+            },
+            {
+              "name": {
+                "value": "\tNagaland"
+              }
+            },
+            {
+              "name": {
+                "value": "\tMizoram"
+              }
+            },
+            {
+              "name": {
+                "value": "\tMeghalaya"
+              }
+            },
+            {
+              "name": {
+                "value": "\tManipur"
+              }
+            },
+            {
+              "name": {
+                "value": "\tMaharashtra"
+              }
+            },
+            {
+              "name": {
+                "value": "Madhya Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "\tKerala"
+              }
+            },
+            {
+              "name": {
+                "value": "\tKarnataka"
+              }
+            },
+            {
+              "name": {
+                "value": "\tJharkhand"
+              }
+            },
+            {
+              "name": {
+                "value": "\tHimachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "\tHaryana"
+              }
+            },
+            {
+              "name": {
+                "value": "\tGujarat"
+              }
+            },
+            {
+              "name": {
+                "value": "\tGoa"
+              }
+            },
+            {
+              "name": {
+                "value": "\tChhattisgarh"
+              }
+            },
+            {
+              "name": {
+                "value": "\tBihar"
+              }
+            },
+            {
+              "name": {
+                "value": "        Assam"
+              }
+            },
+            {
+              "name": {
+                "value": "\tArunachal Pradesh"
+              }
+            },
+            {
+              "name": {
+                "value": "\tAndhra Pradesh"
+              }
+            }
+          ],
+          "name": "Indian_State"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Srinagar"
+              }
+            },
+            {
+              "name": {
+                "value": "\tKolkata"
+              }
+            },
+            {
+              "name": {
+                "value": "\tDehradun"
+              }
+            },
+            {
+              "name": {
+                "value": "\tLucknow"
+              }
+            },
+            {
+              "name": {
+                "value": "\tAgartala"
+              }
+            },
+            {
+              "name": {
+                "value": "\tHyderabad"
+              }
+            },
+            {
+              "name": {
+                "value": "Chennai"
+              }
+            },
+            {
+              "name": {
+                "value": "Gangtok"
+              }
+            },
+            {
+              "name": {
+                "value": "Jaipur"
+              }
+            },
+            {
+              "name": {
+                "value": "Chandigarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Bhubaneswar"
+              }
+            },
+            {
+              "name": {
+                "value": "Kohima"
+              }
+            },
+            {
+              "name": {
+                "value": "Aizawl"
+              }
+            },
+            {
+              "name": {
+                "value": "Shillong"
+              }
+            },
+            {
+              "name": {
+                "value": "Imphal"
+              }
+            },
+            {
+              "name": {
+                "value": "Mumbai"
+              }
+            },
+            {
+              "name": {
+                "value": "Bhopal"
+              }
+            },
+            {
+              "name": {
+                "value": "Thiruvananthapuram"
+              }
+            },
+            {
+              "name": {
+                "value": "Bengaluru"
+              }
+            },
+            {
+              "name": {
+                "value": "Ranchi"
+              }
+            },
+            {
+              "name": {
+                "value": "Shimla"
+              }
+            },
+            {
+              "name": {
+                "value": "Chandigarh"
+              }
+            },
+            {
+              "name": {
+                "value": "Gandhinagar"
+              }
+            },
+            {
+              "name": {
+                "value": "Panaji"
+              }
+            },
+            {
+              "name": {
+                "value": "Naya Raipur"
+              }
+            },
+            {
+              "name": {
+                "value": "Patna"
+              }
+            },
+            {
+              "name": {
+                "value": "Dispur"
+              }
+            },
+            {
+              "name": {
+                "value": "Itanagar"
+              }
+            },
+            {
+              "name": {
+                "value": "Amaravati"
+              }
+            }
+          ],
+          "name": "Indian_Capital"
+        }
+      ]
+    }
+  },
+  "version": "5"
+}
